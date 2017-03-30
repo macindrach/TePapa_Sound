@@ -9,13 +9,34 @@ body {
 	color: white;
 }
 
+a:link{
+	color: orange;
+}
+
+a:visited{
+	color: orange;
+}
+
+a:hover{
+	color: white;
+	text-decoration: none;
+}
+
 .logo {
 	/*padding: 20px 0px 100px 10px;*/
-	background-image: url(img/logo.png);
+	background-image: url(img/logo2.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	z-index: 999;
-	min-height: 300px;
+	min-height: 200px;
+}
+
+.row{
+	background-color: rgba(74, 58, 47, 0.6);
+	border-style: solid;
+	border-width: 4px;
+	border-color: orange;
+	border-radius: 25px;
 }
 
 header a {
