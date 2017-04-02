@@ -104,7 +104,7 @@ p {
 	z-index: 10000;
 }
 
-.text{
+.main-text{
 	background-color: rgba(74, 58, 47, 0.6);
 	border-style: solid;
 	border-width: 4px;
@@ -198,8 +198,14 @@ header a {
 	z-index: 999;
 }
 
-.form{
-	color: black;
+
+input, textarea{
+	color: rgb(232, 218, 202);
+	background-color: rgba(119, 89, 60, 0.4);
+	border-style: inset;
+	border-color: rgb(119, 89, 60);
+	border-radius: 10px;
+	padding: 10px;
 }
 
 .button{
@@ -209,6 +215,7 @@ header a {
     color: white;
     padding: 10px 20px;
     margin: 20px;
+    font-size: 500px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
