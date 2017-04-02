@@ -150,7 +150,30 @@ header a {
 	background-image: url('img/icon3.gif');
 }
 
-.icon {
+.icons {
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 100%;
+	background-position: center;
+	z-index: 999;
+}
+
+
+
+
+.icon1_2 {
+	background-image: url('img/icon1_2.gif');
+}
+
+.icon2_2 {
+	background-image: url('img/icon2_2.gif');
+}
+
+.icon3_2 {
+	background-image: url('img/icon3_2.gif');
+}
+
+.icons2 {
 	background-size: contain;
 	background-repeat: no-repeat;
 	height: 100%;
