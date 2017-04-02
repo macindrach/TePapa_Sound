@@ -38,6 +38,11 @@ h2{
 	font-size: 1.8em
 }
 
+h3{
+	color: white;
+	font-size: 1em
+}
+
 .nav{
 	margin-top: 20px;
 	z-index: 999;
@@ -70,6 +75,7 @@ h2{
 }
 
 .dropdown-content{
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
 	color: orange;
 	text-align: center;
 	background-color: rgba(74, 58, 47, 0.95);
@@ -192,8 +198,24 @@ header a {
 	z-index: 999;
 }
 
+.form{
+	color: black;
+}
 
-.button {
+.button{
+	background-color: orange;
+	border: none;
+	border-radius: 50px;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.start-tour {
 	margin-bottom: 30px;
 	border-style: double;
 	border-width: 8px;
@@ -204,6 +226,3 @@ header a {
 	font-size: 30px;
 }
 
-.button: hover{
-	background-color: rgba(255, 153, 0);
-}
