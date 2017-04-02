@@ -120,6 +120,14 @@ p {
 	z-index: 999;
 }
 
+.beacon-image{
+	background-image: url('img/beacon.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+ 	height:300px;
+ 	margin-bottom: 50px;
+ }
 
 header a {
 	z-index: 999;
@@ -215,7 +223,6 @@ input, textarea{
     color: white;
     padding: 10px 20px;
     margin: 20px;
-    font-size: 500px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
