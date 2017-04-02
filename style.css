@@ -39,7 +39,7 @@ h2{
 }
 
 .nav{
-	margin: 30px;
+	margin-top: 20px;
 	z-index: 999;
 	font-size: 30px;
 }
@@ -51,6 +51,15 @@ h2{
 	background-repeat: no-repeat;
 	z-index: 999;
 	min-height: 200px;
+}
+
+.logo2 {
+	background-image: url(img/logo2.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: 999;
+	min-height: 400px;
 }
 
 .dropdown{
